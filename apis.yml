@@ -1,8 +1,29 @@
 aid: kinside
 name: Kinside
-description: 'Kinside is a company surfaced as a portfolio company of initialized-capital, techstars and
-  added to the API Evangelist network as a stub for enrichment. Sector: marketplaces. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Kinside is a modern child care marketplace that connects families with licensed
+  child care providers by surfacing real-time availability across thousands of
+  providers, helping parents find care in minutes rather than months. Beyond the
+  consumer marketplace, Kinside serves child care providers with enrollment and
+  scheduling tools, employers with child care benefit programs, and government
+  agencies seeking community child care supply-and-demand data. Backed by
+  Initialized Capital and Techstars, the company operates alongside UrbanSitter in
+  the family-care benefits space. This profile was added to the API Evangelist
+  network from venture-portfolio discovery; Kinside does not publish a public
+  developer portal or API at this time, so this entry captures its public web,
+  security, and identity surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.kinside.com/static/web/the-modern-child-care-marketplace.png
 url: https://raw.githubusercontent.com/api-evangelist/kinside/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Marketplaces
+- Child Care
+- Family Benefits
+- Employee Benefits
+- Care Marketplace
+- Government Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://kinside.com/
+- type: TermsOfService
+  url: https://www.kinside.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.kinside.com/privacy-policy
+- type: Blog
+  url: https://blog.urbansitter.com/
+- type: Security
+  url: https://www.kinside.com/security
+- type: VulnerabilityDisclosure
+  url: security/kinside-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/kinside-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
