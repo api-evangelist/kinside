@@ -12,6 +12,17 @@ description: >-
   network from venture-portfolio discovery; Kinside does not publish a public
   developer portal or API at this time, so this entry captures its public web,
   security, and identity surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
